@@ -18,26 +18,26 @@
     <aside>
         <div class="window">
             <form>
-                <input type="text" name="name" id="name" value="Name">
+                <input type="text" name="name" id="name" placeholder="Name" required>
                 <label for="name">Name</label><br>
                 
-                <input type="text" name="lastname" id="lastname" value="Lastname">
+                <input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
                 <label for="lastname">Lastname</label><br>
 
-                <input type="text" name="email" id="email" value="help@gmail.com">
+                <input type="email" name="email" id="email" placeholder="help@gmail.com">
                 <label for="email">Email</label><br>
                 
-                <input type="text" name="phone" id="phone" value="+380.....">
+                <input type="tel" name="phone" id="phone" placeholder="+380" required>
                 <label for="phone">Phone number</label><br>
                 
-                <input type="text" name="pass" id="pass" value="СЕ....">
+                <input type="text" name="pass" id="pass" placeholder="">
                 <label for="pass">Passport data</label><br>
 
-                <select name="var" id="var">
-                    <option value="">Econom</option>
-                    <option value="">Stundart</option>
-                    <option value="">Comfort</option>
-                    <option value="">Lux</option>
+                <select name="var" id="var" required>
+                    <option value="Econom">Econom</option>
+                    <option value="Stundart">Stundart</option>
+                    <option value="Comfort">Comfort</option>
+                    <option value="Lux">Lux</option>
                 </select>
                 <label for="var">Type of room</label><br>
 
@@ -48,7 +48,7 @@
 
                 <p>Comment<Br>
                 <textarea class="comment" name="comment" cols="45" rows="3"></textarea></p><br>
-                <input type="submit" value="Submit" class="but">
+                <input type="submit" value="Submit" class="but" id="butt">
             </form>
         </div>
     </aside>
